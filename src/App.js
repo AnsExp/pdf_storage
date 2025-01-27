@@ -2,16 +2,16 @@ import './resource/css/file-index.css';
 import {pdfjs} from 'react-pdf';
 import PdfComponent from "./resource/components/PdfComponent";
 import {useState} from "react";
-import pdf01 from './resource/files/01.pdf'
-import pdf02 from './resource/files/02.pdf'
-import pdf03 from './resource/files/03.pdf'
-import pdf04 from './resource/files/04.pdf'
-import pdf05 from './resource/files/05.pdf'
-import pdf06 from './resource/files/06.pdf'
-import pdf07 from './resource/files/07.pdf'
-import pdf08 from './resource/files/08.pdf'
-import pdf09 from './resource/files/09.pdf'
-import pdf10 from './resource/files/10.pdf'
+import pdf01 from 'resource/files/01.pdf'
+import pdf02 from 'resource/files/02.pdf'
+import pdf03 from 'resource/files/03.pdf'
+import pdf04 from 'resource/files/04.pdf'
+import pdf05 from 'resource/files/05.pdf'
+import pdf06 from 'resource/files/06.pdf'
+import pdf07 from 'resource/files/07.pdf'
+import pdf08 from 'resource/files/08.pdf'
+import pdf09 from 'resource/files/09.pdf'
+import pdf10 from 'resource/files/10.pdf'
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
     'pdfjs-dist/build/pdf.worker.min.mjs',
@@ -42,24 +42,20 @@ function App() {
         <div className="container my-5">
             <h1>PDF Storage</h1>
             <hr/>
-            <div className="row">
-                <div className="col-2">
-                    <ul>
-                        <li className='item-pdf' onClick={() => load_pdf(pdf01)}>File 01</li>
-                        <li className='item-pdf' onClick={() => load_pdf(pdf02)}>File 02</li>
-                        <li className='item-pdf' onClick={() => load_pdf(pdf03)}>File 03</li>
-                        <li className='item-pdf' onClick={() => load_pdf(pdf04)}>File 04</li>
-                        <li className='item-pdf' onClick={() => load_pdf(pdf05)}>File 05</li>
-                        <li className='item-pdf' onClick={() => load_pdf(pdf06)}>File 06</li>
-                        <li className='item-pdf' onClick={() => load_pdf(pdf07)}>File 07</li>
-                        <li className='item-pdf' onClick={() => load_pdf(pdf08)}>File 08</li>
-                        <li className='item-pdf' onClick={() => load_pdf(pdf09)}>File 09</li>
-                        <li className='item-pdf' onClick={() => load_pdf(pdf10)}>File 10</li>
-                    </ul>
-                </div>
-                <div className="col-10">
-                    <PdfComponent path_file={file_path}/>
-                </div>
+            <div className={'items-container'}>
+                <a href={'#'} className='item-pdf' onClick={() => load_pdf(pdf01)}>File 01</a>
+                <a href={'#'} className='item-pdf' onClick={() => load_pdf(pdf02)}>File 02</a>
+                <a href={'#'} className='item-pdf' onClick={() => load_pdf(pdf03)}>File 03</a>
+                <a href={'#'} className='item-pdf' onClick={() => load_pdf(pdf04)}>File 04</a>
+                <a href={'#'} className='item-pdf' onClick={() => load_pdf(pdf05)}>File 05</a>
+                <a href={'#'} className='item-pdf' onClick={() => load_pdf(pdf06)}>File 06</a>
+                <a href={'#'} className='item-pdf' onClick={() => load_pdf(pdf07)}>File 07</a>
+                <a href={'#'} className='item-pdf' onClick={() => load_pdf(pdf08)}>File 08</a>
+                <a href={'#'} className='item-pdf' onClick={() => load_pdf(pdf09)}>File 09</a>
+                <a href={'#'} className='item-pdf' onClick={() => load_pdf(pdf10)}>File 10</a>
+            </div>
+            <div className="col-10">
+                <PdfComponent path_file={file_path}/>
             </div>
         </div>
     );
