@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pdf_storage/static/css/main.8a264fe7.css",
+    "main.js": "/pdf_storage/static/js/main.f2abafc3.js",
+    "static/js/488.d893b6f6.chunk.js": "/pdf_storage/static/js/488.d893b6f6.chunk.js",
+    "static/media/pdf.worker.min.mjs": "/pdf_storage/static/media/pdf.worker.min.427964844f018304cdbc.mjs",
+    "static/media/01.pdf": "/pdf_storage/static/media/01.a3ff26f28deccc576ffb.pdf",
+    "static/media/02.pdf": "/pdf_storage/static/media/02.3c7e06e542922332ee0b.pdf",
+    "static/media/03.pdf": "/pdf_storage/static/media/03.8263fbc2df5fbf881408.pdf",
+    "static/media/05.pdf": "/pdf_storage/static/media/05.1d37cdb62c1099ac3fbf.pdf",
+    "static/media/06.pdf": "/pdf_storage/static/media/06.ff7775ba6c59bcbf88d6.pdf",
+    "static/media/09.pdf": "/pdf_storage/static/media/09.d5beed1f5d99d19b2854.pdf",
+    "static/media/10.pdf": "/pdf_storage/static/media/10.2e05c16f62a071f7d851.pdf",
+    "static/media/04.pdf": "/pdf_storage/static/media/04.c52b41121f6d2dca8a55.pdf",
+    "static/media/07.pdf": "/pdf_storage/static/media/07.4b2ce5824ed2a51e23b5.pdf",
+    "static/media/08.pdf": "/pdf_storage/static/media/08.e0889aeee496475ab6e9.pdf",
+    "index.html": "/pdf_storage/index.html",
+    "main.8a264fe7.css.map": "/pdf_storage/static/css/main.8a264fe7.css.map",
+    "main.f2abafc3.js.map": "/pdf_storage/static/js/main.f2abafc3.js.map",
+    "488.d893b6f6.chunk.js.map": "/pdf_storage/static/js/488.d893b6f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a264fe7.css",
+    "static/js/main.f2abafc3.js"
+  ]
+}
