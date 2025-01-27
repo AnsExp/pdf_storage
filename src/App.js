@@ -2,7 +2,6 @@ import './resource/css/file-index.css';
 import {pdfjs} from 'react-pdf';
 import PdfComponent from "./resource/components/PdfComponent";
 import {useState} from "react";
-
 import pdf01 from './resource/files/01.pdf'
 import pdf02 from './resource/files/02.pdf'
 import pdf03 from './resource/files/03.pdf'
