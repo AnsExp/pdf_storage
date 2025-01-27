@@ -2,7 +2,7 @@
   "homepage": "http://fireclient.github.io/pdf_storage",
   "name": "pdf_storage",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
