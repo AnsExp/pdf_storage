@@ -1,9 +1,5 @@
 {
-  "browser": {
-    "fs": false,
-    "os": false,
-    "path": false
-  },
+  "homepage": "https://gitname.github.io/react-gh-pages",
   "name": "pdf_storage",
   "version": "0.1.0",
   "private": true,
