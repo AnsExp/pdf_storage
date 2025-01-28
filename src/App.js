@@ -2,16 +2,16 @@ import './resource/css/file-index.css';
 import {pdfjs} from 'react-pdf';
 import PdfComponent from "./resource/components/PdfComponent";
 import {useState} from "react";
-import pdf01 from 'file://./resource/files/01.pdf'
-import pdf02 from 'file://./resource/files/02.pdf'
-import pdf03 from 'file://./resource/files/03.pdf'
-import pdf04 from 'file://./resource/files/04.pdf'
-import pdf05 from 'file://./resource/files/05.pdf'
-import pdf06 from 'file://./resource/files/06.pdf'
-import pdf07 from 'file://./resource/files/07.pdf'
-import pdf08 from 'file://./resource/files/08.pdf'
-import pdf09 from 'file://./resource/files/09.pdf'
-import pdf10 from 'file://./resource/files/10.pdf'
+import pdf01 from './resource/files/01.pdf'
+import pdf02 from './resource/files/02.pdf'
+import pdf03 from './resource/files/03.pdf'
+import pdf04 from './resource/files/04.pdf'
+import pdf05 from './resource/files/05.pdf'
+import pdf06 from './resource/files/06.pdf'
+import pdf07 from './resource/files/07.pdf'
+import pdf08 from './resource/files/08.pdf'
+import pdf09 from './resource/files/09.pdf'
+import pdf10 from './resource/files/10.pdf'
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
     'pdfjs-dist/build/pdf.worker.min.mjs',
